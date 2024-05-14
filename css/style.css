@@ -3,3 +3,113 @@ body {
     font-size: 1rem;
 
 }
+
+/* Header */
+.encabezado {
+    background-color: rgb(34, 33, 33);
+    padding: 10px;
+    margin: 0;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding-left: 30px 30px;
+    border-radius: 50%;
+
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: 'Wonton', sans-serif;
+    color: rgb(185, 220, 13);
+    justify-content: center;
+}
+
+.audio {
+    height: 80px;
+
+}
+
+.redes {
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    transform: scale(0.9);
+}
+
+.social:hover {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+/* Fin Header */
+
+/* Nav */
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+nav {
+    width: 20%;
+    background-color: rgb(34, 33, 33);
+}
+
+.menu {
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.menu:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 0.5s;
+    letter-spacing: 6px;
+}
+
+
+
+/* Fin Nav */
+
+/* Main */
+
+.body {
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 3rem;
+    color: aliceblue;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+.bienvenidos {
+    font-size: 2rem;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
