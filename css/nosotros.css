@@ -68,7 +68,7 @@ nav {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 .menu {
@@ -99,25 +99,51 @@ ul {
         no-repeat center center fixed;
     background-size: cover;
 
+}
+
+.Nosotros {
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 15px;
+    padding: 16px;
+    margin: 16px 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
 
 }
 
-h2 {
-    font-size: 3rem;
+.Nosotros img {
+    width: 25%;
+
+}
+
+img {
+    border-radius: 15px;
+}
+
+.Info {
     color: aliceblue;
-    text-decoration: underline;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 3px;
-    padding: 15px;
+    text-align: justify;
+
 }
 
-.bienvenidos {
-    font-size: 1.5rem;
-    color: aliceblue;
+h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 3px;
-    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 10px;
 }
+
+p {
+    font-style: italic;
+}
+
+.Nosotros:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
 
 /*------------------------------*/
 
@@ -131,4 +157,5 @@ footer {
     justify-content: center;
     color: whitesmoke;
     font-size: 12px;
+
 }
