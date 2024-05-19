@@ -33,6 +33,8 @@ h1 {
     justify-content: center;
 }
 
+
+
 .redes {
     padding-right: 5px;
     width: 15%;
@@ -66,7 +68,7 @@ nav {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 .menu {
@@ -97,51 +99,61 @@ ul {
         no-repeat center center fixed;
     background-size: cover;
     width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+
+
 
 }
 
-.Nosotros {
-    border: 1px solid rgb(173, 171, 171);
-    border-radius: 15px;
-    padding: 16px;
-    margin: 16px 16px;
-    display: flex;
-    gap: 32px;
-    align-items: center;
-
-}
-
-.Nosotros img {
-    width: 25%;
-
-}
-
-img {
-    border-radius: 15px;
-}
-
-.Info {
+h2 {
     color: aliceblue;
-    text-align: justify;
-
-}
-
-h4 {
+    font-size: 3rem;
     font-family: 'Quicksand';
-    font-size: 20px;
-    font-style: italic;
-    border-bottom: 1px solid aliceblue;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+
 }
 
-p {
-    font-style: italic;
+.Comida {
+    list-style: none;
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+
 }
 
-.Nosotros:nth-child(even) {
-    flex-direction: row-reverse;
+.Listas {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+
 }
 
+.Listas ul {
+    padding: 0;
+    display: none;
+
+}
+
+.Listas:hover ul {
+    display: block;
+}
+
+.Listas li {
+    border-top: 1px solid black;
+    font-size: 1.5rem;
+
+}
+
+.Listas:hover {
+    transition: 0.5;
+    display: block;
+}
 
 
 /*------------------------------*/
@@ -156,5 +168,4 @@ footer {
     justify-content: center;
     color: whitesmoke;
     font-size: 12px;
-
 }
